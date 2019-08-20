@@ -3,6 +3,11 @@ import App from "./App.vue";
 import router from "./router/router";
 import store from "./store/store";
 
+// css
+import 'iview/dist/styles/iview.css'
+
+import './plugins/iview.js'
+
 Vue.config.productionTip = false;
 
 new Vue({

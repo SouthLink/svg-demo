@@ -1,6 +1,8 @@
 import Vue from "vue";
 import Router from "vue-router";
 import Home from "@/views/home.vue";
+import path from "@/views/path.vue";
+import stroke from "@/views/stroke.vue";
 
 Vue.use(Router);
 
@@ -23,16 +25,16 @@ export default new Router({
         import(/* webpackChunkName: "about" */ "../views/normal-animation.vue")
     },
     {
-      path: "/animateTransform2",
-      name: "animateTransform2",
+      path: "/path",
+      name: "path",
       component: () =>
-        import(/* webpackChunkName: "about" */ "../views/normal-animation.vue")
+        import(/* webpackChunkName: "about" */ "../views/path.vue")
     },
     {
-      path: "/animateTransform3",
-      name: "animateTransform3",
+      path: "/stroke",
+      name: "stroke",
       component: () =>
-        import(/* webpackChunkName: "about" */ "../views/normal-animation.vue")
+        import(/* webpackChunkName: "about" */ "../views/stroke.vue")
     }
   ]
 });

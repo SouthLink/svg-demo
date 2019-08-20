@@ -4,9 +4,9 @@
       <router-link to="/">Home</router-link> |
       <router-link to="/animateTransform1">普通动画</router-link>
 
-      <router-link to="/animateTransform2">animateTransform2</router-link>
+      <router-link to="/path">路径动画</router-link>
 
-      <router-link to="/animateTransform3">animateTransform3</router-link>
+      <router-link to="/stroke">描边动画</router-link>
     </div>
     <router-view />
   </div>
