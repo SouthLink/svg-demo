@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div class="path">
   	<PathAnimate />
   </div>
 </template>
@@ -8,7 +8,7 @@
 import PathAnimate from './common/path-animate.vue'
 
 export default {
-  name: "home",
+  name: "path",
   components: {
   	PathAnimate
   }

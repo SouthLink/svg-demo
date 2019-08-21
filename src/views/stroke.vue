@@ -1,6 +1,5 @@
-
 <template>
-  <div class="home">
+  <div class="stroke">
   	<StrokeAnimate />
   </div>
 </template>
@@ -9,7 +8,7 @@
 import StrokeAnimate from './common/stroke-animate.vue'
 
 export default {
-  name: "home",
+  name: "stroke",
   components: {
   	StrokeAnimate
   }

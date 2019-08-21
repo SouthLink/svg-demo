@@ -2,12 +2,17 @@
   <div id="app">
     <div id="nav">
       <router-link to="/">Home</router-link> |
+      <router-link to="/basis">基础</router-link>
+
       <router-link to="/animateTransform1">普通动画</router-link>
 
       <router-link to="/path">路径动画</router-link>
 
       <router-link to="/stroke">描边动画</router-link>
+
+      <router-link to="/transfrom">变形动画</router-link>
     </div>
+
     <router-view />
   </div>
 </template>
