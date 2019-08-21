@@ -117,23 +117,23 @@ export default {
 
 @keyframes stroke {
   100% {
-    stroke-dashoffset: 1000;
     stroke-dasharray: 80 160;
+    stroke-dashoffset: 1000;
   }
 }
 
 @keyframes stroke1 {
   100% {
-    stroke-dashoffset: 1080;
     stroke-dasharray: 80 160;
+    stroke-dashoffset: 1080;
   }
 }
 
 
 @keyframes stroke2 {
   100% {
-    stroke-dashoffset: 1160;
     stroke-dasharray: 80 160;
+    stroke-dashoffset: 1160;
   }
 }
 </style>
